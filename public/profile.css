@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  /* this was suggested to use, still not sure how to do without it */
+  .alignright {
+    float: right;
+    padding: 0 0 10px 10px;
+  }
+  
+  .alignleft {
+    float: left;
+    padding: 0 10px 10px 0;
+  }
+  
+  /****************** base styles ************************/
+  
+  body {
+    margin-top: 18%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  /******************* main content **********************/
+  
+  body {
+    background-image: url('images/profilebg.jpg');
+    background-size:cover;
+  }
+.bodyCont {
+    width: max-content;
+  }
+  button {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+
+  }
+  
+  input {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+  }
+
+  .message{
+    text-decoration: none;
+ }
+
+  .completed {
+    text-decoration: line-through;
+    color: #8aabff;
+  }
